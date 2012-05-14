@@ -1,0 +1,14 @@
+This is an evolving piece of code that implements the techniques in this paper:
+
+@InProceedings{BharathICCV2011,
+  author       = "Bharath Hariharan and Pablo Arbelaez and Lubomir Bourdev and Subhransu Maji and Jitendra Malik",
+  title        = "Semantic Contours from Inverse Detectors",
+  booktitle    = "International Conference on Computer Vision (ICCV)",
+  year         = "2011",
+}
+
+
+Currently, the repo contains code for bootstrapping an ``inverse detector" out of a HOG detector(in the folder ``inverse detector") and code for using the ``inverse detector" to reweight contours (in the folder ``reweight"). The file demo.m is a readable demothat explains how to run the code.
+
+The code for reweighting can also be used for other things, such as for reweighting pixel values based on segmentation masks associated with detections etc.
+	
